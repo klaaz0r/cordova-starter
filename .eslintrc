@@ -1,0 +1,14 @@
+{
+  "extends": "eslint-config-standard",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false
+  },
+  "rules": {
+    "no-console": 1,
+    "padded-blocks": 0,
+    "brace-style": 0,
+    "space-before-function-paren": 0
+  }
+}
